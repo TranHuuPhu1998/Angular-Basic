@@ -1,0 +1,59 @@
+<h2>{{ 'profile.profile' | translate }}</h2>
+<div class="d-flex">
+  <div>
+    <nz-avatar
+      [nzSize]="200"
+      nzIcon="user"
+      nzSrc="//zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+    ></nz-avatar>
+    <div class="custom-file">
+      <input type="file" class="custom-file-input" id="inputGroupFile01" />
+      <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+    </div>
+  </div>
+  <nz-list nzBordered nzSize="small">
+    <nz-list-header> {{ 'profile.header' | translate }} </nz-list-header>
+    <nz-list-item>
+      <span nz-typography
+        ><mark> {{ 'profile.first-name' | translate }} </mark></span
+      >
+      {{ user.firstName }}
+    </nz-list-item>
+    <nz-list-item>
+      <span nz-typography
+        ><mark> {{ 'profile.sur-name' | translate }} </mark></span
+      >
+      {{ user.surName }}
+    </nz-list-item>
+    <nz-list-item>
+      <span nz-typography
+        ><mark> {{ 'profile.full-name' | translate }} </mark></span
+      >
+      {{ user.fullname }}
+    </nz-list-item>
+    <nz-list-item>
+      <span nz-typography
+        ><mark> {{ 'profile.email-address' | translate }} </mark></span
+      >
+      {{ user.emailAddress }}
+    </nz-list-item>
+    <nz-list-item>
+      <span nz-typography
+        ><mark> {{ 'profile.gender' | translate }} </mark></span
+      >
+      {{ user.gender == '0' ? ('profile.male' | translate) : ('profile.girl' | translate) }}
+    </nz-list-item>
+    <nz-list-item>
+      <span nz-typography
+        ><mark> {{ 'profile.phone-number' | translate }} </mark></span
+      >
+      {{ user.phoneNumber }}
+    </nz-list-item>
+    <nz-list-item>
+      <span nz-typography
+        ><mark> {{ 'profile.nationality' | translate }} </mark></span
+      >
+      {{ user.nationality }}
+    </nz-list-item>
+  </nz-list>
+</div>

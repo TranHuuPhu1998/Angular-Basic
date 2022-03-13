@@ -1,0 +1,50 @@
+{
+  "header": {
+    "app": "APP",
+    "sign-in": "Sign in",
+    "sign-up": "Sign up",
+    "home": "Home",
+    "profile": "Profile",
+    "welcome": "Welcome",
+    "logout": "Logout"
+  },
+  "home": {
+    "home-page": "Home Page"
+  },
+  "auth": {
+    "form-login": "Form login",
+    "account": "Account",
+    "password": "Password",
+    "log-in": "Log in",
+    "form-register": "Form Register",
+    "first-name": "First name",
+    "sur-name": "Sur name",
+    "phone-number": "Phone number",
+    "type-reg": "Type Reg",
+    "email-address": "Email address",
+    "confirm-password": "Confirm Password",
+    "please-confirm-your-password!": "Please confirm your password!",
+    "two-passwords-that-you-enter-is-inconsistent!": "Two passwords that you enter is inconsistent!",
+    "register": "Register",
+    "the-input-is-not-valid-first-name!": "The input is not valid first Name!",
+    "the-input-is-not-valid-sur-name!": "The input is not valid sur Name!",
+    "the-input-is-not-valid-phone-number!": "The input is not valid phone Number!",
+    "the-input-is-not-valid-typeReg!": "The input is not valid typeReg!",
+    "the-input-is-not-valid-email-address!": "The input is not valid email address!",
+    "please-input-your-password!": "Please input your password!",
+    "please-input-your-account!": "Please input your Account!"
+  },
+  "profile": {
+    "profile": "Profile",
+    "header": "Header",
+    "first-name": "First name",
+    "sur-name": "Sur name",
+    "full-name": "Full name",
+    "email-address": "Email address",
+    "gender": "Gender",
+    "phone-number": "Phone number",
+    "nationality": "Nationality",
+    "male": "Male",
+    "girl": "Girl"
+  }
+}

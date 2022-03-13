@@ -1,0 +1,50 @@
+<nav class="navbar navbar-light">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/"> {{ 'header.app' | translate }} </a>
+    <!--  Show this for logged out users -->
+    <ul class="nav-menu" *appShowAuthed="false">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/auth/login" routerLinkActive="active">
+          {{ 'header.sign-in' | translate }}
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/auth/register" routerLinkActive="active">
+          {{ 'header.sign-up' | translate }}
+        </a>
+      </li>
+      <app-lang-select></app-lang-select>
+    </ul>
+
+    <div class="d-flex" *appShowAuthed="true">
+      <!-- when user login successfully -->
+      <app-lang-select></app-lang-select>
+      <div class="dropdown ml-2">
+        <button
+          class="btn dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+        >
+          {{ 'header.welcome' | translate }} : {{ username }}
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" [routerLink]="['/profile', username]" routerLinkActive="active">
+            {{ 'header.profile' | translate }}
+          </a>
+          <a
+            class="dropdown-item"
+            routerLink="/"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            {{ 'header.home' | translate }}
+          </a>
+          <a class="dropdown-item" [routerLink]="null" (click)="onHandleLogout()">
+            {{ 'header.logout' | translate }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

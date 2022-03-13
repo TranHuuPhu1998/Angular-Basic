@@ -1,0 +1,50 @@
+{
+  "header": {
+    "app": "アプリ",
+    "sign-in": "ログイン",
+    "sign-up": "サインアップ",
+    "home": "家",
+    "profile": "プロフィール",
+    "welcome": "いらっしゃいませ",
+    "logout": "ログアウト"
+  },
+  "home": {
+    "home-page": "ホームページ"
+  },
+  "auth": {
+    "form-login": "フォームログイン",
+    "account": "アカウント",
+    "password": "パスワード",
+    "log-in": "ログイン",
+    "form-register": "フォーム登録",
+    "first-name": "ファーストネーム",
+    "sur-name": "氏名",
+    "phone-number": "電話番号",
+    "type-reg": "タイプ登録",
+    "email-address": "電子メールアドレス",
+    "confirm-password": "パスワードを認証する",
+    "please-confirm-your-password!": "パスワードを確認してください！",
+    "two-passwords-that-you-enter-is-inconsistent!": "入力した2つのパスワードに一貫性がありません。",
+    "register": "登録",
+    "the-input-is-not-valid-first-name!": "入力は有効な名ではありません！",
+    "the-input-is-not-valid-sur-name!": "入力が有効な名前ではありません！",
+    "the-input-is-not-valid-phone-number!": "入力が有効な電話番号ではありません！",
+    "the-input-is-not-valid-typeReg!": "入力が無効ですtypeReg！",
+    "the-input-is-not-valid-email-address!": "入力が有効なメールアドレスではありません！",
+    "please-input-your-password!": "パスワードを入力してください！",
+    "please-input-your-account!": "アカウントを入力してください！"
+  },
+  "profile": {
+    "profile": "プロフィール",
+    "header": "ヘッダ",
+    "first-name": "ファーストネーム",
+    "sur-name": "氏名",
+    "full-name": "フルネーム",
+    "email-address": "電子メールアドレス",
+    "gender": "性別",
+    "phone-number": "電話番号",
+    "nationality": "国籍",
+    "male": "男",
+    "girl": "女の子"
+  }
+}
